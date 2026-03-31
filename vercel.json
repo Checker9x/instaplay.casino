@@ -2,8 +2,20 @@
   "redirects": [
     {
       "source": "/:path*",
+      "has": [{"type": "host", "value": "www.instaplayph.ph"}],
+      "destination": "https://instaplayph.ph/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{"type": "host", "value": "instaplay.casino"}],
+      "destination": "https://instaplayph.ph/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
       "has": [{"type": "host", "value": "www.instaplay.casino"}],
-      "destination": "https://instaplay.casino/:path*",
+      "destination": "https://instaplayph.ph/:path*",
       "permanent": true
     }
   ]

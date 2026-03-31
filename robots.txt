@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://instaplay.casino/sitemap.xml
+Sitemap: https://instaplayph.ph/sitemap.xml
